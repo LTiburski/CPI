@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/08/2017, 14:43:23
+    Author     : Desenvolvimento
+*/
+
+.col-centered{
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+body{
+    background: white;
+}
+
+.btn-padrao{
+    outline: none !important;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 18px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.btn-green{
+    color: #fff;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-comum{
+    color: #524f4f;
+    background-color: #fff;
+    border-color: #a7a7a7;
+    text-transform: uppercase;
+}
+
+.btn-comum:hover{
+    border-color: #524f4f;
+    color: black;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+
+.page-header{
+    border-bottom: 1px solid #dad7d7 !important;
+}
+
+.navbar-inverse{
+    background-color: #3a5869 !important;
+    border-color: #3a5869 !important;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #39393a !important;
+}
+
+thead{
+    background: #3a5869;
+    color: #fff;
+}
